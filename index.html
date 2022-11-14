@@ -112,8 +112,8 @@ body { font-family: 'Prompt' !important; }
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
             <a class="navbar-brand" href="#"></a>
-            <img src="https://drive.google.com/uc?id=1Uin2EcyZ86cA9avH0Wa4PI5mTMpn8SQN" style="width:300px;height:150px;"><br>
-			<h5 class="prompt text-white"><br><br><br><br> <h2><center>ระบบสมัครเข้าศึกษาต่อรูปแบบออนไลน์</center></h2> <br>ระดับประกาศนียบัตรวิชาชีพชั้นสูง (ปวส.) หลักสูตรต่อเนื่องเทียบโอน ปริญญาตรี (บัณฑิตพันธ์ใหม่)<br>หลักสูตรวิศวกรรมศาสตร์บัณฑิต <br>วิทยาลัยเทคนิคนิคมอุตสาหกรรมระยอง ร่วมกับ <br>มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา / มหาวิทยาลัยเกษมบัณฑิต และ มหาวิทยาลัยรามคำแหง</h5>
+            <img src="https://drive.google.com/uc?id=1Uin2EcyZ86cA9avH0Wa4PI5mTMpn8SQN" style="width:450px;height:150px;"><br>
+			<h5 class="prompt text-white"><br><br><br><br> <h3>ระบบสมัครเข้าศึกษาต่อรูปแบบออนไลน์></h3> <br>ระดับประกาศนียบัตรวิชาชีพชั้นสูง (ปวส.) หลักสูตรต่อเนื่องเทียบโอน ปริญญาตรี (บัณฑิตพันธ์ใหม่)<br>หลักสูตรวิศวกรรมศาสตร์บัณฑิต <br>วิทยาลัยเทคนิคนิคมอุตสาหกรรมระยอง ร่วมกับ <br>มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา / มหาวิทยาลัยเกษมบัณฑิต และ มหาวิทยาลัยรามคำแหง</h5>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -147,10 +147,18 @@ body { font-family: 'Prompt' !important; }
 	<form class="row g-3 needs-validation" id="demo1" name="demo1" onsubmit="handleFormSubmit(this)">
 		<div class="row">
 			<div class="col-md-4">
-			  <h5><i class="fas fa-map-marked-alt mr-3"></i> ระดับที่สมัคร</h5>
+			  <h5><i class="fas fa-map-marked-alt mr-3"></i> มหาวิทยาลัยที่ต้องการศึกษาต่อ</h5>
 			  <div class="form-check form-check-inline">
-				<input class="form-check-input" type="radio" name="service" id="local1" value="ประกาศนียบัตรวิชาชีพ (ปวส.)" checked>
-				<label class="form-check-label" for="local1">ระดับประกาศนียบัตรวิชาชีพชั้นสูง (ปวส.)</label>
+				<input class="form-check-input" type="radio" name="service" id="local1" value="มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา" checked>
+				<label class="form-check-label" for="local1">มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา</label>
+			  </div>
+			  <div class="form-check form-check-inline">
+				<input class="form-check-input" type="radio" name="service" id="local1" value="มหาวิทยาลัยเกษมบัณฑิต" checked>
+				<label class="form-check-label" for="local1">มหาวิทยาลัยเกษมบัณฑิต</label>
+			  </div>
+			  <div class="form-check form-check-inline">
+				<input class="form-check-input" type="radio" name="service" id="local1" value="มหาวิทยาลัยรามคำแหง" checked>
+				<label class="form-check-label" for="local1">มหาวิทยาลัยรามคำแหง</label>
 			  </div>
 			</div>
 		</div>
@@ -163,8 +171,16 @@ body { font-family: 'Prompt' !important; }
 				<label class="form-check-label" for="type1">สาขาวิชาช่างไฟฟ้ากำลัง</label>
 			  </div>
 			  <div class="form-check form-check-inline">
-				<input class="form-check-input" type="radio" name="reg_type" id="type2" value="สาขาวิชาอิเล็กทรอนิกส์">
-				  <label class="form-check-label" for="type2">สาขาวิชาอิเล็กทรอนิกส์</label>
+				<input class="form-check-input" type="radio" name="reg_type" id="type2" value="สาขาวิชาเทคนิคการผลิต">
+				  <label class="form-check-label" for="type2">สาขาวิชาเทคนิคการผลิต</label>
+			  </div>
+			  <div class="form-check form-check-inline">
+				<input class="form-check-input" type="radio" name="reg_type" id="type2" value="สาขาวิชาเทคนิคเครื่องกล">
+				  <label class="form-check-label" for="type2">สาขาวิชาเทคนิคเครื่องกล</label>
+			  </div>
+			  <div class="form-check form-check-inline">
+				<input class="form-check-input" type="radio" name="reg_type" id="type2" value="สาขาวิชาเทคนิคโลหะ">
+				  <label class="form-check-label" for="type2">สาขาวิชาเทคนิคโลหะ</label>
 			  </div>
 			</div>
 		</div>
@@ -378,12 +394,12 @@ body { font-family: 'Prompt' !important; }
         <br>
       <div class="row">
         <div class="clo-lg-3 col-md-6">
-          <h4 class="text-white"><i class="fa fa-graduation-cap mr-3"></i> วิทยาลัยเทคนิคนิคมอุตสหกรรมระยอง</h4>
+          <h4 class="text-white"><i class="fa fa-graduation-cap mr-3"></i> วิทยาลัยเทคนิคนิคมอุตสาหกรรมระยอง</h4>
           <p class="h5 text-white">2 ตำบลห้วยโป่ง อำเภอเมืองระยอง จังหวัดระยอง 21150</p>
           <p class=" h5 text-white">สำนักงานคณะกรรมการการอาชีวศึกษา</p>
-		  <p class="text-white mali">ผู้จัดทำ <i class="fa fa-star"></i>งานทะเบียน วิทยาลัยเทคนิคนิคมอุตสหกรรมระยอง<script>
+		  <p class="text-white mali">ผู้จัดทำ <i class="fa fa-star"></i>แผนกวิชาเทคนิคคอมพิวเตอร์<script>
           document.write(new Date().getFullYear())
-          </script> | ติดต่อ 038-685383</p>
+          </script> | ติดต่อ 038-685383 ต่อ 102</p>
         </div>
       </div>
     </div>
